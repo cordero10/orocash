@@ -78,7 +78,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `countrys` WRITE;
 /*!40000 ALTER TABLE `countrys` DISABLE KEYS */;
-INSERT INTO `countrys` VALUES (1,'Benin'),(2,'Ethiopia'),(3,'Nigeria');
+INSERT INTO `countrys` VALUES (1,'Costa Rica'),(2,'Ethiopia'),(3,'Nigeria');
 /*!40000 ALTER TABLE `countrys` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -203,7 +203,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `wallet` WRITE;
 /*!40000 ALTER TABLE `wallet` DISABLE KEYS */;
-INSERT INTO `wallet` VALUES (1,'Caja principal',NULL,'1','Madrid'),(2,'madrid','2021-06-24 23:51:19','1','MADRID');
+INSERT INTO `wallet` VALUES (1,'Caja principal',NULL,'1','Costa Rica'),(2,'Orotina','2021-06-24 23:51:19','1','CR');
 /*!40000 ALTER TABLE `wallet` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
